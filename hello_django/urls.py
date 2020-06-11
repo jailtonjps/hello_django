@@ -18,6 +18,12 @@ from django.urls import path
 from core import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('hello/<nome>/<int:idade>/', views.hello)
+      path('admin/', admin.site.urls),
+      #path('calculo/<int:num1>/<int:num2>', views.calculo)
+      #path('divisao/<int:num1>/<int:num2>', views.divisao)
+      #path('multi/<int:num1>/<int:num2>', views.multi)
+      #path('subtr/<int:num1>/<int:num2>', views.subtr)
+     #path('soma/<int:num1>/<int:num2>', views.soma)
+
+     path('hello/<nome>/<int:idade>/', views.hello)
 ]
